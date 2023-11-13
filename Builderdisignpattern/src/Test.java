@@ -10,7 +10,7 @@
  */
 public class Test {
     
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         
         Student std1 = new Student();
         std1.setId(10);
@@ -21,7 +21,7 @@ public class Test {
          Student std2 = new Student (20,"khalil",3.3);
          
         Student std3 = new Student();
-        std3.
+        std3.WithGpa(3.3).WithEmail("aaa@").WithId(00).WithName("aaaaa");
          
          
          
